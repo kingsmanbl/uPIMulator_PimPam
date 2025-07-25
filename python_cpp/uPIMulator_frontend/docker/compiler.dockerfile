@@ -1,7 +1,7 @@
 FROM ubuntu:20.04
 
 ENV DEBIAN_FRONTEND=noninteractive
-ENV PYTHONPATH="/root/upmem_linker/src:$PYTHONPATH"
+ENV PYTHONPATH="/root/upmem_linker/src"
 
 RUN chmod 1777 /tmp
 
